@@ -110,7 +110,7 @@ export default class PipelineMultiEnvGitops {
                 .codeBuildPolicies(blueprints.DEFAULT_BUILD_POLICIES)
                 .repository({
                     repoUrl: gitRepositoryName,
-                    credentialsSecretName: 'github-token',
+                    credentialsSecretName: 'github-token2',
                     targetRevision: 'dev',
                 })
                 .wave({
