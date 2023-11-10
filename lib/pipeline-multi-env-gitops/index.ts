@@ -8,9 +8,9 @@ import { Construct } from 'constructs';
 import * as team from '../teams/pipeline-multi-env-gitops';
 
 //pattern wide consts
-const GITHUB_ORG = 'aws-samples';
-const CLUSTER_VERSION = eks.KubernetesVersion.V1_26;
-const WORKLOAD_REPO = `git@github.com:${GITHUB_ORG}/eks-blueprints-workloads.git`;
+const GITHUB_ORG = 'AustralianBioCommons';
+const CLUSTER_VERSION = eks.KubernetesVersion.V1_27;
+const WORKLOAD_REPO = `git@github.com:${GITHUB_ORG}/gen3-workloads.git`;
 
 export function populateWithContextDefaults(
     app: cdk.App,
