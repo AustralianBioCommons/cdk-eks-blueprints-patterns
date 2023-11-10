@@ -182,7 +182,7 @@ function createArgoAddonConfig(
         version: '5.37.0',
         bootstrapRepo: {
             repoUrl: repoUrl,
-            path: `multi-repo/argo-app-of-apps/${environment}`,
+            path: `envs/${environment}`,
             targetRevision: 'main',
             credentialsSecretName: 'github-ssh-key',
             credentialsType: 'SSH',
